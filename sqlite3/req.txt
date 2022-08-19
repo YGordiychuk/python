@@ -1,0 +1,13 @@
+Part 1: connection to database, working with files
+	1.1 Connect to Database (use sqlite3 package)
+	1.2 Get names of all tables in database (hint: use sqlite_master table)
+	1.3 Write the following line to a txt-file: 'The database contains the following tables: <table names from step2>'
+	1.4 Print information from txt-file from step 3.
+	1.5 Using connection to database get total records counts for each table and write it to csv-file.
+		Example of content:
+
+		Table name, row_count
+		Players, 11060
+
+	1.6 Print content of csv-file from step 4 using csv.DictReader. Print should have the following format:
+		'Table <table_name> has <number> records.'
